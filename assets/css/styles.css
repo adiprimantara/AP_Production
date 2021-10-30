@@ -762,11 +762,11 @@ img {
   padding: 1.5rem;
 }
 
-.portfolio__img {
+/* .portfolio__img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
-}
+} */
 
 .portfolio__title {
   font-size: var(--h3-font-size);
@@ -1349,13 +1349,13 @@ img {
 @keyframes loadingimg {
   0% {
     opacity: 0;
-    transform:translateY(-100px) ;
+    transform: translateY(-100px);
   }
   50% {
     opacity: 0.5;
-    transform:translateY(50px) ;
+    transform: translateY(50px);
   }
-  100%  {
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
